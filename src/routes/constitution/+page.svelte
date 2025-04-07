@@ -212,6 +212,8 @@
     
     <p>FAAB Waiver wire system. Each team will begin the season with $100. $0 bids are allowed. Bids will be processed on Wednesdays at 8 AM BST.</p>
 
+    <p>If multiple Managers bid for the same player, the manager with the highest claim will win the player. In the likelihood that multiple managers bid the same amount, the tie-breaker will be the reverse order of standings.</p>
+
     <p>FAAB budgets will reset each season.</p>
     
     
