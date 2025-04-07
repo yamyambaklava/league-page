@@ -144,56 +144,55 @@
     
     <hr />
     
-    <h2 class="sectionHeading" bind:this={one}>Section 1 Roster Breakdown</h2>
+    <h2 class="sectionHeading" bind:this={one}>Section 1: Team Roster </h2>
     
-    <h3 class="subSectionHeading" bind:this={oneOne}>1.1 Positional Breakdown</h3>
+    <h3 class="subSectionHeading" bind:this={oneOne}>1.1 Positional Setup</h3>
     
     <p class="underscore">Starters</p>
     <ul>
-        <li>QB</li>
-        <li>RB</li>
-        <li>RB</li>
-        <li>WR</li>
-        <li>WR</li>
-        <li>TE</li>
-        <li>FLEX (RB/WR/TE)</li>
-        <li>FLEX (RB/WR/TE)</li>
-        <li>D/ST</li>
-        <li>K</li>
+        <li>1 x QB</li>
+        <li>2 x RB</li>
+        <li>2 x WR</li>
+        <li>1 x TE</li>
+        <li>2 x FLEX (RB/WR/TE)</li>
+        <li>1 x D/ST</li>
+        <li>1 x K</li>
     </ul>
     
-    <p>6x Bench spots</p>
+    <p>6 x Bench spots</p>
 
-    <p>2x IR Spots (Player must be labelled as IR, Sus, or Covid in the Sleeper App)</p>
+    <p>2 x IR Spots (Players must be marked as IR, Suspended, or COVID in the Sleeper app to be eligible for IR spots)</p>
 
 
     <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Trading</h3>
     
-    <p>Trades will be processed immediately and will be reversed if under investigation for collusion. Tradable assets include players and FAAB $.</p>
+    <p>Trades will be processed immediately.</p>
+    <p>Trades may be reversed if flagged and found to involve collusion.</p>
+    <p>Tradable assets include players and current-season FAAB dollars.</p>
     
     <h4 bind:this={oneTwoOne}>1.2.1 Trade Collusion</h4>
     <div class="subBlock">
-        <p>If any owners are suspected of accepting bribes/offering bribes to enhance their/another owner's team via trade, trading any assets other than fantasy players, draft picks, FAAB $, or otherwise found guilty of engaging in any form of collusion*, all parties involved in the trade will be susceptible to punishment. The punishments will go as followed:</p>
+        <p>If any manager is found to be offering or accepting bribes, trading non-fantasy assets, or otherwise colluding to unfairly enhance a team:</p>
         
         <ul>
-            <li>First Offense – Immediate reduction of FAAB budget by 80%</li>
-            <li>Second Offense – Immediate freeze on all transaction types for 8 gaming weeks, including trades and waiver wire bids</li>
-            <li>Third Offense – A league meeting of all members not involved in any improper trades/activity will take place to discuss the next steps.</li>
+            <li>First Offense: I80% reduction in FAAB budget</li>
+            <li>Second Offense: 8-week freeze on trades and waiver access</li>
+            <li>Third Offense: League meeting to determine further action</li>
         </ul>
 
-        <p>All trades that are found guilty of collusion, will be reversed/denied. If the trade had affected the outcome of previous games, the results of those games will be revised.  </p>
+        <p>Colluded trades will be reversed. If game outcomes were affected, match results may be retroactively adjusted.</p>
 
-        <p>The commissioner will err on the side of letting owners manage their teams the way they see fit. Any collusion will need to be clear. The commissioner reserves the right to step in and at the very least assess the thinking of any team involved in a heavily lop-sided trade. </p>
+        <p>The commissioner will lean toward letting managers manage their teams—but reserves the right to review trades and assess intentions in extreme cases.</p>
     </div>
 
-    <h4 bind:this={oneTwoTwo}>1.2.2 Lending Players Prohibition</h4>
+    <h4 bind:this={oneTwoTwo}>1.2.2 Lending Players (Reacquisition Rule)</h4>
     <div class="subBlock">
-        <p>A player traded away may not be re-acquired by the original team via trade within 3 weeks unless the trade is clearly in good faith and league-approved. Repeat trade-backs within a short time frame may be reviewed for collusion.</p>
+        <p>A manager may not re-acquire a traded player within 3 weeks of the original trade unless the deal is clearly in good faith and approved by the league. Repeat trade-backs may trigger a collusion review.</p>
     </div>
     
     <h4 bind:this={oneTwoThree}>1.2.3 Trade Deadline</h4>
     <div class="subBlock">
-        <p>The trade deadline will be set for Week 12 of the NFL season.</p>
+        <p>The trade deadline is <strong>Week 12</strong> of the NFL regular season.</p>
     </div>
     
     <h4 bind:this={oneTwoFour}>1.2.4 Trade Restrictions</h4>
