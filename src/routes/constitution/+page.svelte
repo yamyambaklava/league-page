@@ -113,17 +113,15 @@
     <h3 class="noUnderscore clickable" onclick={() => goToSection(two)}>Section 2: Drafting</h3>
     
         <h4 class="noUnderscore clickable" onclick={() => goToSection(twoOne)}>2.1 Draft Order</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(twoTwo)}>2.2 Rookie Drafts</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(twoThree)}>2.3 Draft Day Trades</h4>
     
     <h3 class="noUnderscore clickable" onclick={() => goToSection(three)}>Section 3: Scoring System</h3>
     
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(threeOne)}>3.1 Voting on Scoring System</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(threeOne)}>3.1 Scoring System</h4>
     
     <h3 class="noUnderscore clickable" onclick={() => goToSection(four)}>Section 4: Postseason</h3>
     
         <h4 class="noUnderscore clickable" onclick={() => goToSection(fourOne)}>4.1 Playoffs</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(fourTwo)}>4.2 Playoff Tiebreakers</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(fourTwo)}>4.2 Playoffs Seeding Tiebreakers</h4>
 
     <h3 class="noUnderscore clickable" onclick={() => goToSection(five)}>Section 5: Tanking Policy</h3>
     
@@ -137,10 +135,13 @@
 
     <h3 class="noUnderscore clickable" onclick={() => goToSection(seven)}>Section 7: League Finances</h3>
     
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(sevenOne)}>7.1 League Dues</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(sevenOne)}>7.1 League Entry Fees</h4>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(sixTwo)}>7.2 Payout</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(sixThree)}>7.3 Raising Dues</h4>
-    
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(sixThree)}>7.3 Raising Fees</h4>
+
+    <h3 class="noUnderscore clickable" onclick={() => goToSection(eight)}>Section 8: Offseason</h3>
+
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(eightOne)}>8.1 League Changes Fees</h4>
     
     <hr />
     
@@ -216,17 +217,17 @@
     <p>FAAB budgets will reset each season.</p>
     
     
-    <h2 class="sectionHeading" bind:this={two}>Section 2 Drafting</h2>
+    <h2 class="sectionHeading" bind:this={two}>Section 2: Drafting</h2>
     
     <h3 bind:this={twoOne}>2.1 Draft Order</h3>
     <p>The draft order each year will be randomised in the form of a Snake draft.</p>
     
-    <h2 class="sectionHeading" bind:this={three}>Section 3 Scoring System</h2>
+    <h2 class="sectionHeading" bind:this={three}>Section 3: Scoring System</h2>
 
     <h3 bind:this={threeOne}>3.1 Scoring System</h3>
     <p>The league scoring system breakdown is listed on the Sleeper fantasy app (for the most part, it follows typical .5PPR Scoring).</p>
     
-    <h2 class="sectionHeading" bind:this={four}>Section 4 Postseason</h2>
+    <h2 class="sectionHeading" bind:this={four}>Section 4: Postseason</h2>
     
     <h3 bind:this={fourOne}>4.1 Playoffs</h3>
     <p>At the end of the season 6 teams will make the playoffs. The first round of playoffs will commence in week 15. The top 2 teams will receive a bye week in the first round of the playoffs. Each playoff matchup will only last one week and the winner will advance. Week 17 is the Dirty Soda Bowl Championship game. Week 18 will not be used.</p>
@@ -242,12 +243,12 @@
         <li>Duel to the death</li>
     </ol>
 
-    <h2 class="sectionHeading" bind:this={five}>Section 5 Tanking Policy</h2>
+    <h2 class="sectionHeading" bind:this={five}>Section 5: Tanking Policy</h2>
     
     <h3 bind:this={fiveOne}>5.1 League Tanking Policy</h3>
     <p>No team may intentionally leave starting roster spots empty. Any evidence of intentionally leaving roster spots empty in order to improve your draft position may be subject to punishment, including a suspension from using the waiver wire the following week. Repeat offenders will face being kicked out of the league.</p>
 
-    <h2 class="sectionHeading" bind:this={six}>Section 6 Replacing Managers</h2>
+    <h2 class="sectionHeading" bind:this={six}>Section 6: Replacing Managers</h2>
     
     <h3 bind:this={sixOne}>6.1 Removing Managers</h3>
     <p>Short of continuously failing to set a valid lineup, or confirmed collusion, no manager can be removed against their will. Participation, through the league chat, trade offers, and the waiver wire.</p>
@@ -258,7 +259,7 @@
     <h3 bind:this={sixThree}>6.3 Replacement Incentive</h3>
     <p> If a manager chooses to quit the league or is removed by a commissioner, an incoming manager is offered a 50% reduction on their first-year buy-in.</p>
 
-    <h2 class="sectionHeading" bind:this={seven}>Section 7 League Finances</h2>
+    <h2 class="sectionHeading" bind:this={seven}>Section 7: League Finances</h2>
     
     <h3 bind:this={sevenOne}>7.1 League Entry Fees</h3>
     <p>League entry fees are set at £10.00 per manager. Fees are collected by the commissioner and collection will be sent out no later than the first of August. All managers must be fully paid up before the start of the regular season. If a manager fails to pay before the deadline, a 10% penalty will be added to their payment and will go towards the payouts at the end of the year.</p>
@@ -275,4 +276,11 @@
     <h3 bind:this={sevenThree}>7.3 Raising Dues</h3>
     <p>A majority vote is required in order to raise league entry fees. In the event that a manager is no longer financially comfortable with the buy-in, finding a co-manager to split the cost is reccomended.</p>
 
+    <h2 class="sectionHeading" bind:this={eight}>Section 8: Offseason</h2>
+
+    <h3 bind:this={eightOne}>8.1 League Changes</h3>
+    <p>At the end of each season, the league will vote on new league changes, which have been collated by league members from that season.</p>
+
+    <p>League changes that pass a majority vote will come into effect for the following season.</p>
+    
 </div>
