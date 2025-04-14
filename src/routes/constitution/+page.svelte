@@ -139,9 +139,10 @@
         <h4 class="noUnderscore clickable" onclick={() => goToSection(sixTwo)}>7.2 Payout</h4>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(sixThree)}>7.3 Raising Fees</h4>
 
-    <h3 class="noUnderscore clickable" onclick={() => goToSection(eight)}>Section 8: Offseason</h3>
+    <h3 class="noUnderscore clickable" onclick={() => goToSection(eight)}>Section 8: In-Season/Off-Season</h3>
 
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(eightOne)}>8.1 League Changes Fees</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(eightOne)}>8.1 In-Season League Changes</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(eightTwo)}>8.2 Off-Season League Changes</h4>
     
     <hr />
     
@@ -231,7 +232,7 @@
     <p>At the end of the season 6 teams will make the playoffs. The first round of playoffs will commence in week 15. The top 2 teams will receive a bye week in the first round of the playoffs. Each playoff matchup will only last one week and the winner will advance. Week 17 is the Dirty Soda Bowl Championship game. Week 18 will not be used.</p>
     
     <h3 bind:this={fourTwo}>4.2 Seeding Tiebreakers</h3>
-    <p>If two teams finish with the same record the tiebreakers will go as followed:</p>
+    <p>If two teams finish with the same record the tiebreakers will go as follows:</p>
 
     <ol>
         <li>Points For</li>
@@ -272,13 +273,23 @@
     <p>In the event that a manager is fined due to late payment, their extra fee will be added to the winner's payout. Similarly, if new managers come into the league and the payout is smaller, the difference will come out of the winner's prize.</p>
     
     <h3 bind:this={sevenThree}>7.3 Raising Dues</h3>
-    <p>A majority vote is required in order to raise league entry fees. In the event that a manager is no longer financially comfortable with the buy-in, finding a co-manager to split the cost is reccomended.</p>
+    <p>A majority vote is required in order to raise league entry fees. In the event that a manager is no longer financially comfortable with the buy-in, finding a co-manager to split the cost is recommended.</p>
 
-    <h2 class="sectionHeading" bind:this={eight}>Section 8: Offseason</h2>
+    <h2 class="sectionHeading" bind:this={eight}>Section 8: In-Season/Off-Season</h2>
 
-    <h3 bind:this={eightOne}>8.1 League Changes</h3>
-    <p>At the end of each season, the league will vote on new league changes, which have been collated by league members from that season.</p>
+    <h3 bind:this={eightOne}>8.1 In-Season League Changes</h3>
+    <p>Beginning in the 2025 season, the league has approved the ability to implement rule changes during the season. This is intended to provide flexibility for addressing unforeseen issues, loopholes, format inconsistencies, or broken mechanics.</p>
 
-    <p>League changes that pass a majority vote will come into effect for the following season.</p>
-    
+    <p>The deadline for proposing in-season changes is the end of Week 6 of the regular season. Any proposals submitted after this deadline will be deferred to the off-season review period.</p>
+   
+    <p>All proposed in-season changes must be brought forward by a league member and require a majority vote to be enacted.</p>
+
+    <p>Note: Proposed rule changes may not target or reverse rules that were newly implemented in the most recent offseason.</p>
+
+    <h3 bind:this={eightTwo}>8.2 off-Season League Changes</h3>
+
+    <p>After each season, league members will vote on a list of proposed changes gathered throughout the year—beginning after the Week 6 in-season change deadline.</p>
+
+    <p>Any rule change that receives a majority vote during this period will be adopted and applied for the following season.</p>
+
 </div>
