@@ -205,8 +205,7 @@
     <div class="subBlock">
         <p>A total of 7 veto votes are required to veto a trade. Vetoes are only appropriate in instances of collusion or an egregious mismatch of value (i.e. CMC for a backup kicker). Not liking a trade does not warrant a veto.</p>
     </div>
-    
-    
+     
     
     <h3 bind:this={oneThree}>1.3 Waiver Wire</h3>
     
@@ -215,7 +214,6 @@
     <p>If multiple Managers bid for the same player, the manager with the highest claim will win the player. In the likelihood that multiple managers bid the same amount, the tie-breaker will be the reverse order of standings.</p>
 
     <p>FAAB budgets will reset each season.</p>
-    
     
     <h2 class="sectionHeading" bind:this={two}>Section 2: Drafting</h2>
     
