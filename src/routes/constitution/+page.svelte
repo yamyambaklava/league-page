@@ -136,8 +136,8 @@
     <h3 class="noUnderscore clickable" onclick={() => goToSection(seven)}>Section 7: League Finances</h3>
     
         <h4 class="noUnderscore clickable" onclick={() => goToSection(sevenOne)}>7.1 League Entry Fees</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(sixTwo)}>7.2 Payout</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(sixThree)}>7.3 Raising Fees</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(sevenTwo)}>7.2 Payout</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(sevenThree)}>7.3 Raising Fees</h4>
 
     <h3 class="noUnderscore clickable" onclick={() => goToSection(eight)}>Section 8: In-Season/Off-Season</h3>
 
